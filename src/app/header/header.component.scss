@@ -1,0 +1,29 @@
+.header_main {
+    // width: calc(100% - 20px);
+    width: 100%;
+    display: block;
+    // background-color: #f8f9fa;
+    background: #99999900;
+    padding: 10px 0px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease; 
+
+    .header_logo{ 
+        width: 100px;
+        height: 50px;
+        margin-left: 100px;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    
+}
